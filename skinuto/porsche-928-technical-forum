@@ -1,0 +1,3800 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- BEGIN TEMPLATE: FORUMDISPLAY -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<base href="http://forums.pelicanparts.com/" /><!--[if IE]></base><![endif]-->
+<link rel="canonical" href="http://forums.pelicanparts.com/porsche-928-technical-forum/" />
+<!-- BEGIN TEMPLATE: headinclude -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="generator" content="vBulletin 3.8.7" />
+
+<meta name="keywords" content="Porsche,928,Technical,Forum,Porsche 928 Technical Forum, vbulletin,jelsoft,forum,bbs,discussion,bulletin board" />
+<meta name="description" content="Porsche 928 Technical Forum - Here's a BBS set up just for 928 owners who want to talk about their car and share tech info." />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'Pelican Parts - vBulletin 2 Style'; Style ID: 3
+*/
+body
+{
+	background: #FFFFFF;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+a:link, body_alink
+{
+	color: #000080;
+}
+a:visited, body_avisited
+{
+	color: #000080;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt Verdana, Arial;
+}
+.tborder
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.tcat
+{
+	background: #FFCF87;
+	color: #000000;
+	font: bold 12pt tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	background-image: url('images/gradient9.gif')
+	
+}
+.tcat a:link, .tcat_alink
+{
+	color: #000000;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #000000;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #000000;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #171797;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.tfoot
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #E0E0F6;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #E0E0F6;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #FFFF66;
+}
+.alt1, .alt1Active
+{
+	background: #DEDFDF;
+}
+.alt2, .alt2Active
+{
+	background: #F7F7F7;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #22229C;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #22229C;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #FF4400;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	BACKGROUND-COLOR: #FFBF67
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 10px Verdana, Arial;
+}
+.time
+{
+	color: #800080;
+}
+.navbar
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #E4E7F5 url(images/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 10px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #D1D4E0 url(images/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #22229C;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #738FBF;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.vbmenu_option
+{
+	background: #BBC7CE;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #22229C;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #22229C;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #8A949E;
+	color: #FFFFFF;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.bigusername:link 		{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; text-decoration: none; color: #000080; font-weight: bold}
+.bigusername:hover		{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; text-decoration: underline; color: #FF0000; font-weight: bold}
+.bigusername			{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; text-decoration: none; color: #0000FF; font-weight: bold}
+
+SELECT {
+	FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif;
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #CFCFCF
+}
+TEXTAREA, .bginput {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF
+}
+.bginput {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #CFCFCF
+}
+.submitinput {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFBF67
+}
+A:link, A:visited, A:active {
+	COLOR: #000080;
+}
+A:hover {
+	COLOR: #FF4400;
+}
+#cat A:link, #cat A:visited, #cat A:active {
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+}
+#cat A:hover {
+	COLOR: #000000;
+	TEXT-DECORATION: underline;
+}
+#ltlink A:link, #ltlink A:visited, #ltlink A:active {
+	COLOR: #000080;
+	TEXT-DECORATION: none;
+}
+#ltlink A:hover {
+	COLOR: #FF4400;
+	TEXT-DECORATION: underline;
+}
+.thtcolor {
+	COLOR: #FFFFFF;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="http://forums.pelicanparts.com/clientscript/vbulletin_important.css?v=387" />
+
+
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="http://forums.pelicanparts.com/clientscript/yui/yahoo-dom-event/yahoo-dom-event.js?v=387"></script>
+<script type="text/javascript" src="http://forums.pelicanparts.com/clientscript/yui/connection/connection-min.js?v=387"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "s=4eccaf0d0e4ed71a0f6cba66088352a1&";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "images/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+<script type="text/javascript" src="http://forums.pelicanparts.com/clientscript/vbulletin_global.js?v=387"></script>
+<script type="text/javascript" src="http://forums.pelicanparts.com/clientscript/vbulletin_menu.js?v=387"></script>
+
+
+
+<!-- PRNG for DFP -->
+<script language="Javascript">
+<!--
+var axel = Math.random() + "";
+var ord = axel * 1000000000000000000;
+//-->
+</script>
+<!-- End PRNG for DFP WayneTest-->
+<script type="text/javascript" src="http://jautnesy.com/QO-hPoN-/xouh_LOHgX-/xYOH-tX/TLnryMWh.php?2E-G1J=9bVn7N797l616&Uja-3=bV5-04-3dM1_e7y&7_n-OXw=Z693Rc_dJb4aIJaY"></script>
+<!-- END TEMPLATE: headinclude -->
+        <!-- twitter app card start-->
+        <!-- https://dev.twitter.com/docs/cards/types/app-card -->
+        <meta name="twitter:card" content="app" />
+    
+        <meta name="twitter:app:id:iphone" content="307880732" />
+        <meta name="twitter:app:url:iphone" content="tapatalk://forums.pelicanparts.com?location=forum&amp;page=1&amp;perpage=35&amp;fid=15" />
+        <meta name="twitter:app:id:ipad" content="307880732" />
+        <meta name="twitter:app:url:ipad" content="tapatalk://forums.pelicanparts.com?location=forum&amp;page=1&amp;perpage=35&amp;fid=15" />
+        
+        <meta name="twitter:app:id:googleplay" content="com.quoord.tapatalkpro.activity" />
+        <meta name="twitter:app:url:googleplay" content="tapatalk://forums.pelicanparts.com?location=forum&amp;page=1&amp;perpage=35&amp;fid=15" />
+        
+    <!-- twitter app card -->
+    
+<title>Porsche 928 Technical Forum - Pelican Parts Technical BBS</title>
+
+</head>
+<body>
+
+<!-- Tapatalk Detect body start -->
+<script type="text/javascript">if (typeof(tapatalkDetect) == "function") tapatalkDetect()</script>
+<!-- Tapatalk Detect banner body end -->
+
+<!-- BEGIN TEMPLATE: header -->
+<script language="JavaScript">var image_path = '';</script>
+<script language="JavaScript" src="http://forums.pelicanparts.com/homepage.js" type="text/javascript"></script>
+<script language="JavaScript" src="http://forums.pelicanparts.com/supercat_source.js" type="text/javascript"></script>
+<style type="text/css" id="pelican_css">
+	.top_bar:visited	{font-family: Verdana,Arial, Helvetica, sans-serif;font-size: 8pt; font-style: normal; text-decoration: none; color: #FFFFFF; font-weight: bold}
+.top_bar:link 		{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; color: #FFFFFF; font-weight: bold}
+.top_bar:hover		{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; text-decoration: underline; color: #FFFFFF; font-weight: bold}
+.top_bar			{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; color: #FFFFFF; font-weight: bold}
+
+.top_bar_table:link 	{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; color: #FFFFFF; font-weight: bold}
+.top_bar_table			{font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; text-decoration: none; color: #FFFFFF; font-weight: bold}
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1px 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: #A00000;
+	font-weight: bold;
+	font-family:"Verdana",Arial,Georgia,Serif;
+	font-size:13px;
+	background-color: #E7E7E7;
+	border-left: 1px solid #ccc;
+	border-bottom: 0px solid #ccc; 
+	border-top: 0px solid #ccc; }
+#nav li {
+	float: left;
+    }
+#nav li a {
+	display: block;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family:"Verdana",Arial,Georgia,Serif;
+	font-size:13px;
+	color: #A00000;
+	border-right: 1px solid #ccc;
+	}
+#nav li a:hover {
+	color: #DF0404 !important;
+	text-decoration: normal;
+	text-decoration: underline;
+	background-color: #DDDDDD; 
+	1px solid #ccc; }
+
+#nav li.first {    
+    border-left: 0px solid #ccc;
+}
+
+#nav li.selected a{    
+    	color: #DF0404 !important;
+	text-decoration: none !important;
+	background-color: #DDDDDD;
+}
+
+#nav li.selected a:hover{    
+    	color: #DF0404 !important;
+	text-decoration: underline !important;
+	background-color: #DDDDDD;
+	}
+</style>
+
+<!-- ALL FORUMS EXCEPT THE ONES LISTED BELOW -->
+<!-- ALL OF THIS IS DONE FOR SEO OPTIMIZATION SO THAT WE HAVE STATIC LINKS AT THE TOPS OF THE FORUMS -->
+
+	<!-- Porsche Technical Forums -->
+				
+	<!-- Porsche 911 Forums -->
+	
+	<!-- Porsche 356 Forums -->
+				
+	<!-- Porsche 914 Forums -->
+				
+	<!-- Porsche 924/944/968 Forums -->
+				
+	<!-- Porsche Boxster / Cayman Forums -->
+				
+	<!-- Porsche 928 Forums -->
+	
+	  <table style="BORDER-COLLAPSE: collapse" border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" height="1" width="100%">
+        <tbody>
+        <a href="http://www.pelicanparts.com/index.htm">
+        <IMG border=0 STYLE="position:absolute; TOP:5px; LEFT:5px; WIDTH:190px; HEIGHT:87px" SRC="http://www.pelicanparts.com/graphics/pelican_logo3.png">
+		</a>
+        <tr>
+          <td rowspan="2" width="40%" height="1">
+          <a href="http://www.pelicanparts.com/">
+          <img border="0" src="http://www.pelicanparts.com/graphics/logo_block_trans.gif" width="165" height="34"></a></td>
+          <td height="1" width="1">
+          </td>
+          <td height="1" width="1">
+          </td>
+          <td height="1" width="1">
+          </td>
+          <td height="1" width="1">
+          </td>
+          <td height="1" width="1">
+          </td>
+          <td height="1" width="1">
+          </td>
+          <td height="1" width="1"></td>
+          <td rowspan="2" align="right" width="40%">				
+				<table style="border-collapse: collapse" border="0" bordercolor="#111111" cellpadding="0" cellspacing="0">
+				  <tbody>
+				  	<tr></tr>
+					<tr></tr>
+				  <tr>
+				    <td align="center" width="100%">
+						<!-- START SCANALERT CODE -->
+						<map name="FPMap0">
+						<area href="https://www2.mcafeesecure.com/verify?host=www.pelicanparts.com" shape="rect" coords="18, 43, 143, 71">
+						</map>
+						<img border="0" src="http://www.pelicanparts.com/graphics/phone_number2.jpg" usemap="#FPMap0" width="159" height="72">
+						</span></font>
+				    </td>
+				  </tr>
+				</tbody>
+				</table>
+			</td>
+		   </tr>
+		   <tr>
+	          <td valign="bottom" align="right" height="50">&nbsp;</td>
+	          <td valign="bottom" width="1" height="50"><a href="http://www.pelicanparts.com/catalog/shopcart/928M_catalog.htm"><img alt="Parts Catalog" src="http://www.pelicanparts.com/graphics/nav1i_on.jpg" border="0" width="145" height="60"></a></td>
+	          <td valign="bottom" width="1" height="50"><a href="http://www.pelicanparts.com/catalog/accessories.htm"><img alt="Accessories Catalog" src="http://www.pelicanparts.com/graphics/nav2i_on.jpg" border="0" width="145" height="60"></a></td>
+	          <td valign="bottom" width="1" height="50"><a href="http://www.pelicanparts.com/928/928world.htm"><img alt="Tech Info" src="http://www.pelicanparts.com/graphics/nav3i_on.jpg" border="0" width="124" height="60"></a></td>
+	          <td valign="bottom" width="1" height="50"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/"><img alt="Tech Forums" src="http://www.pelicanparts.com/graphics/nav4i_on.jpg" border="0" width="152" height="60"></a></td>
+	          <td valign="bottom" width="1" height="50"></td>
+	          <td valign="bottom" width="1" height="50"></td>
+	       </tr>
+		 </tbody>
+		</table>
+				
+	<!-- Porsche Cayenne Forums -->
+				
+	<!-- BMW GENERAL FORUMS -->
+								
+	<!-- BMW 3-SERIES  -->
+	
+	<!-- BMW 5-SERIES -->
+								
+	<!-- BMW Z3/Z4 -->
+								
+	<!-- BMW X3/X5 -->
+								
+	<!-- BMW 2002 -->
+								
+	<!-- MINI COOPER -->
+								
+	<!-- MERCEDES - NOT TYPICALLY GOING TO BE USED BECAUSE WE SEND PEOPLE TO PEACH PARTS INSTEAD -->
+								
+	<!-- VW/AUDI -->
+								
+	<!-- VOLVO -->
+								
+	<!-- SAAB -->
+								
+
+			
+		</td>
+	</tr>
+	<tr>
+		<td><base target="_parent">
+			      <TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=25 cellSpacing=0 cellPadding=0 width="100%" border=0 bgcolor="#E7E7E7">
+        <TBODY>
+      <tr>
+        <td bgColor="#686868" colSpan="5"><img height="1" src="http://www.pelicanparts.com/graphics/transparent.gif" width="10" border="0"></td>
+      </tr>       
+        <TR>
+          <td width=65>&nbsp;</td>
+		  <td align=center>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111">
+              <tr>
+                <td valign=middle>
+					<ul id="nav">
+						<li class="first"><a href="http://www.pelicanparts.com/index.htm">Porsche</a></li>
+						<li><a href="http://www.pelicanparts.com/bmw/index.htm">BMW</a></li>
+						<li><a href="http://www.pelicanparts.com/Mercedes-Benz/index-SC.htm">Mercedes-Benz</a></li>
+						<li><a href="http://www.pelicanparts.com/Audi/index-SC.htm">Audi</a></li>
+						<li><a href="http://www.pelicanparts.com/Volkswagen/index-SC.htm">Volkswagen</a></li>
+						<li><a href="http://www.pelicanparts.com/Saab/index-SC.htm">Saab</a></li>
+					 	<li><a href="http://www.pelicanparts.com/Volvo/index-SC.htm">Volvo</a></li>
+						<li><a href="http://www.pelicanparts.com/Mini/index-SC.htm">MINI</a></li>
+					</ul>                
+				</td>
+               </tr>
+            </table>
+		   </td>
+           <td width=154><map name="FPMapSocial">
+           <area href="https://www.facebook.com/pages/Pelican-Parts/178733405331" shape="rect" coords="2, 2, 27, 22">
+           <area href="https://twitter.com/Pelican_Parts" shape="rect" coords="27, 2, 52, 22">
+           <area href="http://instagram.com/pelicanparts" shape="rect" coords="52, 2, 77, 22">
+           <area href="http://www.youtube.com/user/pelicanparts" shape="rect" coords="77, 2, 102, 22">
+           <area href="http://www.pinterest.com/pelicanparts/" shape="rect" coords="102, 2, 127, 22">
+           <area href="http://pelicanparts.tumblr.com/" shape="rect" coords="127, 2, 152, 22">
+           </map>
+           <img border="0" src="http://www.pelicanparts.com/graphics/social_icons.gif" width="154" height="24" usemap="#FPMapSocial"></td>
+          </TR>
+		</TBODY></TABLE>		 
+<table style="BORDER-COLLAPSE: collapse" id="BlueBarTable" background="http://www.pelicanparts.com/graphics/gradient2_2014.gif" bgcolor="#171797" border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" height="30" width="100%">
+        <form name="topsearch" action="http://www.pelicanparts.com/cgi-bin/ksearch/pel_search_2014.cgi" align="center" vmethod="POST" style="display: inline">
+        <input name="command" value="DWsearch" type="hidden">
+        <tbody>
+        <tr>
+          <td height="30">
+            <div align="left">
+            <table style="BORDER-COLLAPSE: collapse" border="0" bordercolor="#111111" cellpadding="0" cellspacing="0">
+              <tbody>
+              <tr>
+                <td bordercolor="#800080" align="center"><font color="#ffffff">&nbsp;<b><font face="verdana" size="1"> Search our site:</font></b>&nbsp;&nbsp;</font></td>
+                <td align="center">
+                <input class="formfield" style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana; BACKGROUND-COLOR: #cfcfcf" onFocus="document.topsearch.description.value=''" value="Enter Description" name="description" size="20"></td>
+                <td align="center">&nbsp;<input src="http://www.pelicanparts.com/graphics/go.gif" name="I1" align="middle" border="0" height="17" type="image" width="21"></td></tr></tbody></table></div></td>
+		<td class="top_bar_table" align="center" height="30">
+		<map name="FPMap1">
+        <area href="http://forums.pelicanparts.com/porsche-928-technical-forum/#" shape="rect" coords="1, 1, 179, 29" onClick="window.open('http://www.pelicanparts.com/support/FreeShipping.htm','target_window','resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,height=700,width=600');return false" class="NewYearMessage" style="color: #000080; font-size: 12pt" onClick="window.open('http://www.pelicanparts.com/support/FreeShipping.htm','target_window','resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,height=700,width=600');return false">
+        <area href="http://forums.pelicanparts.com/porsche-928-technical-forum/#" shape="rect" coords="201, 2, 383, 29" onClick="window.open('http://www.pelicanparts.com/support/3DayShipping.htm','target_window','resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,height=700,width=600');return false" class="NewYearMessage" style="color: #000080; font-size: 12pt" onClick="window.open('http://www.pelicanparts.com/support/FreeShipping.htm','target_window','resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,height=700,width=600');return false">
+        </map>
+		<img border="0" src="http://www.pelicanparts.com/graphics/Free_Ship_3Day_2014.gif" usemap="#FPMap1" width="384" height="30"></TD>
+          <td class="top_bar_table" align="right" height="30">
+            <table border="0" cellpadding="0" cellspacing="0">
+            	<tbody><tr>
+            		<td valign="middle"><a class="top_bar" href="http://www.pelicanparts.com/cgi-bin/smart/S-mart.cgi?command=review&amp;history=catalog"><img src="http://www.pelicanparts.com/graphics/ShopCart_mini.png" border="0" height="23" width="22"></a></td>
+            		<td valign="middle">&nbsp;<a class="top_bar" href="http://www.pelicanparts.com/cgi-bin/smart/S-mart.cgi?command=review&amp;history=catalog">Cart</a>&nbsp;</td>
+            		<td align="right" valign="middle"><span id="CartQty1"></span></td>
+					<td valign="middle"><font color="#DBEDFF">|</font>&nbsp;<a class="top_bar" href="http://www.pelicanparts.com/cgi-bin/smart/S-mart.cgi?command=project_list">Project List</a>&nbsp;<font color="#DBEDFF">|</font>&nbsp;<a class="top_bar" href="http://www.pelicanparts.com/support/TrackOrder.htm">Order Status</a>&nbsp;<font color="#DBEDFF">|</font>&nbsp;<a class="top_bar" href="http://www.pelicanparts.com/support/support_main.htm">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            	</tr>
+            </tbody></table>
+            </td></tr>
+        </form></tbody></table>	<center>
+
+<!--Filter for Google ads because the girls pics are too racy.  Add other threads below too-->
+
+
+<div align="center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Peach Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0812980613569064"
+     data-ad-slot="6952955753"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-385710-3']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="http://stats.pelicanparts.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://stats.pelicanparts.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+<script language="javascript" type="text/javascript">
+<!--
+var QR_EditorID = "";
+function ControlClick(e){
+var evtobj=window.event? event : e;
+if (evtobj.ctrlKey == true && (evtobj.keyCode == 13 || evtobj.which == 13))
+   {
+   if (QR_EditorID != "")
+   	{document.getElementById('vbform').sbutton.click();}
+   else
+   	{document.getElementById('vbform').submit();}
+   }
+}
+function OpenSpellCheckWindow(e){
+	var page = 'http://forums.pelicanparts.com/spelling_redirect.htm';
+	part_select = window.open(page,'target_window','resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,height=600,width=225,top=25,left=0');
+}
+var postmaxchars = 10000;
+function checklength(theform) {
+	if (postmaxchars != 0) { message = "\nThe maximum permitted length is 10000 characters."; }
+	else { message = ""; }
+	alert("Your message is "+theform.message.value.length+" characters long."+message);
+}
+subload = 0;
+function winopen(icqwindow) { var MainWindow = window.open (icqwindow, "_blank","toolbar=no,location=no,menubar=no,scrollbars=yes,width=640,height=640,resizeable=no,status=no");}
+// -->
+</script>
+<!-- content table -->
+<!-- BEGIN TEMPLATE: spacer_open -->
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:98%; text-align:left">
+		<div style="padding:0px 0px 0px 0px" align="left">
+
+<!-- END TEMPLATE: spacer_open -->
+
+
+<!-- BEGIN TEMPLATE: ad_header_end -->
+
+<!-- END TEMPLATE: ad_header_end -->
+<!-- END TEMPLATE: header -->
+<!-- BEGIN TEMPLATE: navbar -->
+
+<!-- breadcrumb, login, pm info -->
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+<tr>
+	<td class="alt1" width="100%">
+		
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr valign="bottom">
+				<td><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/#" onclick="history.back(1); return false;"><img src="http://forums.pelicanparts.com/images/misc/navbits_start.gif" alt="Go Back" border="0" /></a></td>
+				<td>&nbsp;</td>
+				<td width="100%"><span class="navbar"><a href="http://forums.pelicanparts.com/" accesskey="1">Pelican Parts Technical BBS</a></span> <!-- BEGIN TEMPLATE: navbar_link -->
+
+	<span class="navbar">&gt; <a href="http://forums.pelicanparts.com/1-porsche-technical-forums/">1- Porsche Technical Forums</a></span>
+
+
+<!-- END TEMPLATE: navbar_link --></td>
+			</tr>
+			<tr>
+				<td class="navbar" style="font-size:10pt; padding-top:1px" colspan="3"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/"><img class="inlineimg" src="http://forums.pelicanparts.com/iconimages/porsche-928-technical-forum_ltr.gif" alt="Porsche 928 Technical Forum" border="0" /></a> <strong><!-- BEGIN TEMPLATE: navbar_link -->
+
+	Porsche 928 Technical Forum
+
+
+<!-- END TEMPLATE: navbar_link --></strong></td>
+			</tr>
+			</table>
+		
+	</td>
+
+	<td class="alt2" nowrap="nowrap" style="padding:0px">
+		<!-- login form -->
+		<form action="http://forums.pelicanparts.com/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+		<script type="text/javascript" src="http://forums.pelicanparts.com/clientscript/vbulletin_md5.js?v=387"></script>
+		<table cellpadding="0" cellspacing="3" border="0">
+		<tr>
+			<td class="smallfont" style="white-space: nowrap;"><label for="navbar_username">User Name</label></td>
+			<td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == 'User Name') this.value = '';" /></td>
+			<td class="smallfont" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" />Remember Me?</label></td>
+		</tr>
+		<tr>
+			<td class="smallfont"><label for="navbar_password">Password</label></td>
+			<td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102" /></td>
+			<td><input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" /></td>
+		</tr>
+		</table>
+		<input type="hidden" name="s" value="4eccaf0d0e4ed71a0f6cba66088352a1" />
+		<input type="hidden" name="securitytoken" value="guest" />
+		<input type="hidden" name="do" value="login" />
+		<input type="hidden" name="vb_login_md5password" />
+		<input type="hidden" name="vb_login_md5password_utf" />
+		</form>
+		<!-- / login form -->
+	</td>
+
+</tr>
+</table>
+<!-- / breadcrumb, login, pm info -->
+
+<!-- nav buttons bar -->
+<div class="tborder" style="padding:1px; border-top-width:0px">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<tr align="center">
+		
+		
+			<td class="vbmenu_control"><a href="http://forums.pelicanparts.com/register.php" rel="nofollow">Register</a></td>
+		
+		<!-- BEGIN TEMPLATE: dto_garage_navbar -->
+<td class="vbmenu_control"><a id="navbar_garage" href="http://forums.pelicanparts.com/dto_garage_help.php" rel="nofollow">Garage</a> <script type="text/javascript"> vbmenu_register("navbar_garage"); </script>
+			
+			
+	<div class="vbmenu_popup" id="navbar_garage_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead" align="left">Garage</td>
+		</tr>
+<!-- BEGIN TEMPLATE: dto_garage_plus_navbar_search -->
+                <tr><td align="left" class="vbmenu_option"><a rel="nofollow" href="http://forums.pelicanparts.com/dto_garage.php?do=editgarage">Manage My Garage</a></td></tr>
+
+                <tr><td align="left" class="vbmenu_option"><a href="http://forums.pelicanparts.com/dto_garage_search.php">Browse by Username</a></td></tr>
+
+                <tr><td align="left" class="vbmenu_option"><a href="http://forums.pelicanparts.com/dto_garage_search.php">Browse Recently Added</a></td></tr>
+
+                <tr><td align="left" class="vbmenu_option"><a href="http://forums.pelicanparts.com/dto_garage_search.php">Browse Recently Modified</a></td></tr>
+
+                <tr><td align="left" class="vbmenu_option"><a href="http://forums.pelicanparts.com/dto_garage_search.php">Advanced Search</a></td></tr>
+<!-- END TEMPLATE: dto_garage_plus_navbar_search -->
+                <tr><td class="vbmenu_option" align="left"><a target="_help" href="http://forums.pelicanparts.com/dto_garage_help.php">Help</a></td></tr>
+		</table>
+	</div>
+	
+</td>
+<!-- END TEMPLATE: dto_garage_navbar -->
+		<td class="vbmenu_control"><a rel="help" href="http://forums.pelicanparts.com/faq.php" accesskey="5">FAQ</a></td>
+		
+			<td class="vbmenu_control"><a id="community" href="http://forums.pelicanparts.com/porsche-928-technical-forum/?nojs=1#community" rel="nofollow" accesskey="6">Community</a> <script type="text/javascript"> vbmenu_register("community"); </script></td>
+		
+		<td class="vbmenu_control"><a href="http://forums.pelicanparts.com/calendar.php">Calendar</a></td>
+		
+			
+				
+				<td class="vbmenu_control"><a href="http://forums.pelicanparts.com/search.php?do=getdaily" accesskey="2">Today's Posts</a></td>
+				
+				<td class="vbmenu_control"><a id="navbar_search" href="http://forums.pelicanparts.com/search.php" accesskey="4" rel="nofollow">Search</a> </td>
+			
+			
+		
+		
+		
+		</tr>
+	</table>
+</div>
+<!-- / nav buttons bar -->
+
+<br />
+
+
+
+
+
+
+<!-- NAVBAR POPUP MENUS -->
+
+	
+	<!-- community link menu -->
+	<div class="vbmenu_popup" id="community_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr><td class="thead">Community Links</td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="http://forums.pelicanparts.com/groups/">Social Groups</a></td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="http://forums.pelicanparts.com/members/albums.html">Pictures &amp; Albums </a></td></tr>
+		
+		
+		
+		
+		</table>
+	</div>
+	<!-- / community link menu -->
+	
+	
+	
+	<!-- header quick search form -->
+	<div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">Search Forums</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+				<form action="http://forums.pelicanparts.com/search.php?do=process" method="post">
+
+					<input type="hidden" name="do" value="process" />
+					<input type="hidden" name="quicksearch" value="1" />
+					<input type="hidden" name="childforums" value="1" />
+					<input type="hidden" name="exactname" value="1" />
+					<input type="hidden" name="s" value="4eccaf0d0e4ed71a0f6cba66088352a1" />
+					<input type="hidden" name="securitytoken" value="guest" />
+					<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="Go" tabindex="1004" /></div>
+					<div style="margin-top:6px">
+						<label for="rb_nb_sp0"><input type="radio" name="showposts" value="0" id="rb_nb_sp0" tabindex="1002" checked="checked" />Show Threads</label>
+						&nbsp;
+						<label for="rb_nb_sp1"><input type="radio" name="showposts" value="1" id="rb_nb_sp1" tabindex="1003" />Show Posts</label>
+					</div>
+				</form>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="http://forums.pelicanparts.com/tags/" rel="nofollow">Tag Search</a></td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="http://forums.pelicanparts.com/search.php" accesskey="4" rel="nofollow">Advanced Search</a></td>
+		</tr>
+		
+		</table>
+	</div>
+	<!-- / header quick search form -->
+	
+	
+	
+<!-- / NAVBAR POPUP MENUS -->
+
+<!-- PAGENAV POPUP -->
+	<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead" nowrap="nowrap">Go to Page...</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+			<form action="http://forums.pelicanparts.com/" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+				<input type="text" class="bginput" id="pagenav_itxt" style="font-size:11px" size="4" />
+				<input type="button" class="button" id="pagenav_ibtn" value="Go" />
+			</form>
+			</td>
+		</tr>
+		</table>
+	</div>
+<!-- / PAGENAV POPUP -->
+
+
+
+
+<!-- BEGIN TEMPLATE: ad_navbar_below -->
+
+<!-- END TEMPLATE: ad_navbar_below -->
+
+
+<!-- END TEMPLATE: navbar -->
+
+
+
+
+
+
+
+<!-- threads list  -->
+
+<form action="http://forums.pelicanparts.com/inlinemod.php?forumid=15" method="post" id="inlinemodform">
+<input type="hidden" name="url" value="" />
+<input type="hidden" name="s" value="4eccaf0d0e4ed71a0f6cba66088352a1" />
+<input type="hidden" name="securitytoken" value="guest" />
+<input type="hidden" name="forumid" value="15" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- controls above thread list -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:3px">
+<tr valign="bottom">
+	<td class="smallfont"><a href="http://forums.pelicanparts.com/newthread.php?do=newthread&amp;f=15" rel="nofollow"><img src="http://forums.pelicanparts.com/images/buttons/newthread.gif" alt="Post New Thread" border="0" /></a></td>
+	<td align="right"><!-- BEGIN TEMPLATE: pagenav -->
+<div class="pagenav" align="right">
+<table class="tborder" cellpadding="3" cellspacing="1" border="0" style="background-color:#123456; background-image: url('images/gradient2.gif')">
+<tr>
+	<td class="vbmenu_control" style="background-color:#000080; font-weight:bold; font-size: 14px">Page 1 of 2</td>
+	
+	
+	<!-- BEGIN TEMPLATE: pagenav_curpage -->
+	<td class="alt2"><span style="font-weight:bold; font-size: 14px" class="smallfont" title="Showing results 1 to 35 of 57"><strong>1</strong></span></td>
+ 
+<!-- END TEMPLATE: pagenav_curpage --><!-- BEGIN TEMPLATE: pagenav_pagelink -->
+<td class="alt1"><a style="font-weight:bold; font-size: 14px" class="smallfont" href="http://forums.pelicanparts.com/porsche-928-technical-forum/index2.html" title="Show results 36 to 57 of 57">2</a></td>
+<!-- END TEMPLATE: pagenav_pagelink -->
+	<td class="alt1"><a style="font-weight:bold; font-size: 14px" class="smallfont" href="http://forums.pelicanparts.com/porsche-928-technical-forum/index2.html" title="Next Page - Results 36 to 57 of 57">Next &raquo;</a></td>
+	
+	<td style="background-color:#123456; background-image: url('images/gradient2.gif')" class="vbmenu_control" title="forumdisplay.php?s=4eccaf0d0e4ed71a0f6cba66088352a1&amp;f=15&amp;order=desc"><a name="PageNav"></a></td>
+</tr>
+</table>
+</div>
+<!-- END TEMPLATE: pagenav --></td>
+</tr>
+</table>
+<!-- / controls above thread list -->
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td class="tcat" width="100%">Threads in Forum<span class="normal"> : Porsche 928 Technical Forum</span></td>
+	<td class="vbmenu_control" id="forumtools" nowrap="nowrap"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?nojs=1#goto_forumtools" rel="nofollow">Forum Tools</a> <script type="text/javascript"> vbmenu_register("forumtools"); </script></td>
+	
+	<td class="vbmenu_control" id="forumsearch" nowrap="nowrap"><a href="http://forums.pelicanparts.com/search.php?f=15" rel="nofollow">Search this Forum</a></td>
+	
+</tr>
+</table>
+
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center" id="threadslist">
+<tbody>
+
+<tr>
+
+	
+		<td class="thead" colspan="2">&nbsp;</td>
+	
+	<td class="thead" width="100%">
+		<span style="float:right"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?daysprune=45&amp;order=desc&amp;sort=voteavg" rel="nofollow">Rating</a> </span>
+		<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?daysprune=45&amp;order=asc&amp;sort=title" rel="nofollow">Thread</a>  
+	</td>
+
+<td class="thead" align="center" nowrap="nowrap"><span style="white-space:nowrap"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?daysprune=45&amp;order=asc&amp;sort=postusername" rel="nofollow">Thread Starter</a> </span></td>
+	
+	<td class="thead" align="center" nowrap="nowrap"><span style="white-space:nowrap"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?daysprune=45&amp;order=desc&amp;sort=replycount" rel="nofollow">Replies</a> </span></td>
+	<td class="thead" align="center" nowrap="nowrap"><span style="white-space:nowrap"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?daysprune=45&amp;order=desc&amp;sort=views" rel="nofollow">Views</a> </span></td>
+
+<td class="thead" width="150" align="center" nowrap="nowrap"><span style="white-space:nowrap"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?daysprune=45" rel="nofollow">Last Post</a> <!-- BEGIN TEMPLATE: forumdisplay_sortarrow -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?daysprune=45&amp;order=asc&amp;sort=lastpost" rel="nofollow"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/sortasc.gif" alt="Reverse Sort Order" border="0" /></a>
+<!-- END TEMPLATE: forumdisplay_sortarrow --></span></td>
+
+	
+
+</tr>
+</tbody>
+
+
+	<!-- show threads -->
+	<tbody id="threadbits_forum_15">
+	
+	<!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_607208">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_607208" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_607208" title="">
+
+		
+		<div>
+			
+				<span style="float:right">
+                    
+					
+					
+					
+					
+					
+					 <img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/sticky.gif" alt="Sticky Thread" /> 
+				</span>
+			
+			
+			
+			Sticky: 
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes.html" id="thread_title_607208">**MOST Common 928 Issues AND Fixes**</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes-3.html">3</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes-4.html">4</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes-5.html">5</a>
+<!-- END TEMPLATE: threadbit_pagelink --> ... <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes-7.html">Last Page</a>)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			<span style="float:right"><img class="inlineimg" src="http://forums.pelicanparts.com/images/rating/rating_5.gif" border="0" alt="Thread Rating: 2 votes, 5.00 average." /></span>
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/50236.html" target="_self">MPDano</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=607208" onclick="who(607208); return false;">120</a></td>
+		<td class="alt1" align="center">110,688</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 120, Views: 110,688">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			02-20-2015 <span class="time">12:38 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/132765.html" >proturn</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/607208-most-common-928-issues-fixes-7.html#post8495778"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_451638">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_451638" alt="" border="" />
+	</td>
+	
+		<td class="alt1"><img src="http://forums.pelicanparts.com/ultimate/icons/icon15.gif" alt="Porsche Crest" border="0" /></td>
+	
+
+	<td class="alt2" id="td_threadtitle_451638" title="">
+
+		
+		<div>
+			
+				<span style="float:right">
+                    
+					
+					
+					
+					
+					
+					 <img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/sticky.gif" alt="Sticky Thread" /> 
+				</span>
+			
+			
+			
+			Sticky: 
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks.html" id="thread_title_451638">please add your 928 photo to this gallery and your location thanks</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks-3.html">3</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks-4.html">4</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks-5.html">5</a>
+<!-- END TEMPLATE: threadbit_pagelink --> ... <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks-27.html">Last Page</a>)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			<span style="float:right"><img class="inlineimg" src="http://forums.pelicanparts.com/images/rating/rating_4.gif" border="0" alt="Thread Rating: 3 votes, 3.67 average." /></span>
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/53778.html" target="_self">928SROCK</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=451638" onclick="who(451638); return false;">524</a></td>
+		<td class="alt1" align="center">84,909</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 524, Views: 84,909">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			02-02-2015 <span class="time">09:34 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/201368.html" >WilliamJSS</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks-27.html#post8467375"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_649491">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_moved.gif" id="thread_statusicon_649491" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_649491" title="">
+
+		
+		<div>
+			
+			
+			Moved: 
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/451638-please-add-your-928-photo-gallery-your-location-thanks.html" id="thread_title_649491">Where's the 928 pictures post? Post em!</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/96606.html" target="_self">924CarreraGTP</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center">-</td>
+		<td class="alt1" align="center">-</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" align="center">-</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit -->
+	
+	<!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_855637">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_855637" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_855637" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855637-newbe-needs-help-lost-woods.html" id="thread_title_855637">Newbe needs help  &quot;Lost in the woods &quot;</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855637-newbe-needs-help-lost-woods.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855637-newbe-needs-help-lost-woods-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink -->)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/204425.html" target="_self">Jagawar</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=855637" onclick="who(855637); return false;">27</a></td>
+		<td class="alt1" align="center">616</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 27, Views: 616">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			Today <span class="time">04:26 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/2767.html" >Mrmerlin</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855637-newbe-needs-help-lost-woods-2.html#post8544501"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_857074">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" id="thread_statusicon_857074" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_857074" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857074-rear-bearing-replace.html" id="thread_title_857074">Rear bearing replace?</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/64171.html" target="_self">jchiodi</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=857074" onclick="who(857074); return false;">6</a></td>
+		<td class="alt1" align="center">90</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 6, Views: 90">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			Today <span class="time">04:14 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/2767.html" >Mrmerlin</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857074-rear-bearing-replace.html#post8544490"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_857298">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" id="thread_statusicon_857298" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_857298" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857298-slight-miss-sometimes.html" id="thread_title_857298">slight miss ..... sometimes</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/106620.html" target="_self">davetr</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=857298" onclick="who(857298); return false;">4</a></td>
+		<td class="alt1" align="center">63</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 4, Views: 63">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			Today <span class="time">04:09 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/2767.html" >Mrmerlin</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857298-slight-miss-sometimes.html#post8544485"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_853561">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_853561" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_853561" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853561-1983-gauge-cluster.html" id="thread_title_853561">1983 gauge cluster</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853561-1983-gauge-cluster.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853561-1983-gauge-cluster-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink -->)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/106620.html" target="_self">davetr</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=853561" onclick="who(853561); return false;">21</a></td>
+		<td class="alt1" align="center">590</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 21, Views: 590">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			Today <span class="time">03:40 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853561-1983-gauge-cluster-2.html#post8544456"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_857243">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" id="thread_statusicon_857243" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_857243" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857243-fuel-line-help.html" id="thread_title_857243">Fuel line help</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/191213.html" target="_self">Awaino</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=857243" onclick="who(857243); return false;">6</a></td>
+		<td class="alt1" align="center">121</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 6, Views: 121">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			Yesterday <span class="time">04:42 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/191213.html" >Awaino</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857243-fuel-line-help.html#post8543985"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_857302">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" id="thread_statusicon_857302" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_857302" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857302-transmission-modulator-buy.html" id="thread_title_857302">Which Transmission Modulator to buy</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/64171.html" target="_self">jchiodi</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=857302" onclick="who(857302); return false;">0</a></td>
+		<td class="alt1" align="center">31</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 0, Views: 31">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			Yesterday <span class="time">07:12 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/64171.html" >jchiodi</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/857302-transmission-modulator-buy.html#post8543045"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_856611">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_856611" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_856611" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856611-how-much-should-i-ask-my-car.html" id="thread_title_856611">How much should I ask for my car?</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/1659.html" target="_self">dtw</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=856611" onclick="who(856611); return false;">4</a></td>
+		<td class="alt1" align="center">240</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 4, Views: 240">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-22-2015 <span class="time">02:20 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/48029.html" >Landseer</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856611-how-much-should-i-ask-my-car.html#post8541347"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_807851">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_807851" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_807851" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/807851-928-v12-6-speed.html" id="thread_title_807851">928 V12 6 speed</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/807851-928-v12-6-speed.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/807851-928-v12-6-speed-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink -->)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/192736.html" target="_self">dinsdalepiranha</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=807851" onclick="who(807851); return false;">21</a></td>
+		<td class="alt1" align="center">1,635</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 21, Views: 1,635">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-21-2015 <span class="time">07:44 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/96670.html" >Ducman82</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/807851-928-v12-6-speed-2.html#post8541213"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_840707">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_840707" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_840707" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/840707-new-here.html" id="thread_title_840707">New here</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/840707-new-here.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/840707-new-here-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink -->)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/199561.html" target="_self">The Deputy</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=840707" onclick="who(840707); return false;">20</a></td>
+		<td class="alt1" align="center">1,085</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 20, Views: 1,085">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-21-2015 <span class="time">06:25 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/840707-new-here-2.html#post8541128"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_855925">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_855925" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_855925" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855925-worth-what-they-asking.html" id="thread_title_855925">Is it worth what they are asking?</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/204844.html" target="_self">Tamaren</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=855925" onclick="who(855925); return false;">9</a></td>
+		<td class="alt1" align="center">386</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 9, Views: 386">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-21-2015 <span class="time">06:21 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855925-worth-what-they-asking.html#post8541120"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_817961">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_817961" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_817961" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/817961-nib-front-rear-zimmerman-rotors.html" id="thread_title_817961">NIB front and rear Zimmerman rotors</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/26114.html" target="_self">87m491</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=817961" onclick="who(817961); return false;">1</a></td>
+		<td class="alt1" align="center">267</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 1, Views: 267">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-21-2015 <span class="time">12:00 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/26114.html" >87m491</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/817961-nib-front-rear-zimmerman-rotors.html#post8540715"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_540954">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_540954" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_540954" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins.html" id="thread_title_540954">First 928 -The story(nightmare?)begins</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins-3.html">3</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins-4.html">4</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins-5.html">5</a>
+<!-- END TEMPLATE: threadbit_pagelink --> ... <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins-33.html">Last Page</a>)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			<span style="float:right"><img class="inlineimg" src="http://forums.pelicanparts.com/images/rating/rating_5.gif" border="0" alt="Thread Rating: 2 votes, 5.00 average." /></span>
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/76800.html" target="_self">gbgastowers</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=540954" onclick="who(540954); return false;">652</a></td>
+		<td class="alt1" align="center">66,197</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 652, Views: 66,197">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-20-2015 <span class="time">07:51 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/76800.html" >gbgastowers</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/540954-first-928-story-nightmare-begins-33.html#post8540058"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_856870">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" id="thread_statusicon_856870" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_856870" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856870-leak-fuel-pump.html" id="thread_title_856870">Leak at fuel pump?</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/80705.html" target="_self">jheis</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=856870" onclick="who(856870); return false;">1</a></td>
+		<td class="alt1" align="center">73</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 1, Views: 73">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-20-2015 <span class="time">03:14 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/2767.html" >Mrmerlin</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856870-leak-fuel-pump.html#post8539761"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_855169">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_855169" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_855169" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855169-928-engine-crank-bearing-question.html" id="thread_title_855169">928 engine crank bearing question</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/174038.html" target="_self">5l32v4c</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=855169" onclick="who(855169); return false;">10</a></td>
+		<td class="alt1" align="center">345</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 10, Views: 345">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-18-2015 <span class="time">11:05 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/146652.html" >jim devine</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855169-928-engine-crank-bearing-question.html#post8536353"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_856245">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_856245" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_856245" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856245-turn-signal-problem.html" id="thread_title_856245">turn signal problem</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/106620.html" target="_self">davetr</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=856245" onclick="who(856245); return false;">6</a></td>
+		<td class="alt1" align="center">179</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 6, Views: 179">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-17-2015 <span class="time">12:22 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/195126.html" >Jose_JGC</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856245-turn-signal-problem.html#post8534754"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_856378">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_856378" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_856378" title="">
+
+		
+		<div>
+			
+				<span style="float:right">
+                     <img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/tag.png" alt="5 speed, transaxle, transmission" /> 
+					
+					
+					
+					
+					
+					
+				</span>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856378-84-5-speed-transaxle-lsd-sale.html" id="thread_title_856378">84 5 Speed Transaxle with LSD for Sale</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/205442.html" target="_self">dgogoman</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=856378" onclick="who(856378); return false;">4</a></td>
+		<td class="alt1" align="center">257</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 4, Views: 257">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-17-2015 <span class="time">01:40 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856378-84-5-speed-transaxle-lsd-sale.html#post8533938"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_856047">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_856047" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_856047" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856047-what-missing-here.html" id="thread_title_856047">What is missing here?</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/59100.html" target="_self">928 Bro</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=856047" onclick="who(856047); return false;">2</a></td>
+		<td class="alt1" align="center">186</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 2, Views: 186">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-16-2015 <span class="time">04:49 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/59100.html" >928 Bro</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856047-what-missing-here.html#post8533502"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_856191">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" id="thread_statusicon_856191" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_856191" title="">
+
+		
+		<div>
+			
+				<span style="float:right">
+                     <img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/tag.png" alt="928, tacho, tachometer" /> 
+					
+					
+					
+					
+					
+					
+				</span>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856191-porsche-928s-tacho-signal.html" id="thread_title_856191">Porsche 928s Tacho Signal</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/205224.html" target="_self">Bmshearer</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=856191" onclick="who(856191); return false;">1</a></td>
+		<td class="alt1" align="center">120</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 1, Views: 120">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-16-2015 <span class="time">03:49 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/45464.html" >neil30076</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/856191-porsche-928s-tacho-signal.html#post8532434"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_847952">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_847952" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_847952" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/847952-winter-project.html" id="thread_title_847952">Winter project -</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/18277.html" target="_self">JK McDonald</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=847952" onclick="who(847952); return false;">19</a></td>
+		<td class="alt1" align="center">1,196</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 19, Views: 1,196">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-13-2015 <span class="time">05:58 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/847952-winter-project.html#post8529453"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_758771">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_758771" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_758771" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/758771-14-pin-connector-broken.html" id="thread_title_758771">14 pin connector broken</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/57520.html" target="_self">Dean_Fuller</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=758771" onclick="who(758771); return false;">16</a></td>
+		<td class="alt1" align="center">921</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 16, Views: 921">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-13-2015 <span class="time">05:35 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/758771-14-pin-connector-broken.html#post8529421"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_855056">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_855056" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_855056" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855056-brake-suspension-parts-fs.html" id="thread_title_855056">Brake and Suspension Parts FS</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/80705.html" target="_self">jheis</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=855056" onclick="who(855056); return false;">2</a></td>
+		<td class="alt1" align="center">219</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 2, Views: 219">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-13-2015 <span class="time">10:42 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/80705.html" >jheis</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855056-brake-suspension-parts-fs.html#post8528880"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_855727">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_855727" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_855727" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855727-how-much-worth.html" id="thread_title_855727">How much is it worth..</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/48696.html" target="_self">Yellowb1rd</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=855727" onclick="who(855727); return false;">9</a></td>
+		<td class="alt1" align="center">263</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 9, Views: 263">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-13-2015 <span class="time">09:04 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/45845.html" >Linderpat</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855727-how-much-worth.html#post8528728"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_852807">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_852807" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_852807" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/852807-opinions-car.html" id="thread_title_852807">Opinions on this car</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/852807-opinions-car.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/852807-opinions-car-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink -->)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/201883.html" target="_self">Roger65</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=852807" onclick="who(852807); return false;">31</a></td>
+		<td class="alt1" align="center">1,011</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 31, Views: 1,011">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-11-2015 <span class="time">02:46 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/852807-opinions-car-2.html#post8526087"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_855073">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_855073" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_855073" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855073-happened-me-broken-cam-please-read.html" id="thread_title_855073">This happened to me(broken cam)please read</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/58804.html" target="_self">erwin928</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=855073" onclick="who(855073); return false;">2</a></td>
+		<td class="alt1" align="center">241</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 2, Views: 241">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-11-2015 <span class="time">02:30 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855073-happened-me-broken-cam-please-read.html#post8526058"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_855557">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" id="thread_statusicon_855557" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_855557" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855557-cold-start-injector.html" id="thread_title_855557">Cold start injector</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/69566.html" target="_self">XLR8928</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=855557" onclick="who(855557); return false;">2</a></td>
+		<td class="alt1" align="center">136</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 2, Views: 136">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-11-2015 <span class="time">10:18 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/71330.html" >JhwShark</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/855557-cold-start-injector.html#post8525615"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_834267">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_834267" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_834267" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/834267-steering-wheel-bearing-issue-help-please.html" id="thread_title_834267">Steering Wheel / Bearing Issue - Help Please</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/110028.html" target="_self">SanDiego928</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=834267" onclick="who(834267); return false;">15</a></td>
+		<td class="alt1" align="center">550</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 15, Views: 550">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-10-2015 <span class="time">07:20 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/110028.html" >SanDiego928</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/834267-steering-wheel-bearing-issue-help-please.html#post8524892"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_854571">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_854571" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_854571" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/854571-uro-parts-good.html" id="thread_title_854571">URO parts, good?</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/42366.html" target="_self">Danglerb</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=854571" onclick="who(854571); return false;">6</a></td>
+		<td class="alt1" align="center">305</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 6, Views: 305">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-08-2015 <span class="time">08:53 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/79066.html" >tlister67</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/854571-uro-parts-good.html#post8520859"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_851864">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_851864" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_851864" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/851864-s4-black-leather-interior-rear-quarter-panels-fs.html" id="thread_title_851864">S4 Black Leather Interior Rear Quarter Panels FS</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/80705.html" target="_self">jheis</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=851864" onclick="who(851864); return false;">2</a></td>
+		<td class="alt1" align="center">389</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 2, Views: 389">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-06-2015 <span class="time">11:26 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/80705.html" >jheis</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/851864-s4-black-leather-interior-rear-quarter-panels-fs.html#post8518655"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_850468">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_850468" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_850468" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/850468-928s24-wont-start.html" id="thread_title_850468">928S24 wont start.....</a>
+			<span class="smallfont" style="white-space:nowrap">(<img class="inlineimg" src="http://forums.pelicanparts.com/images/misc/multipage.gif" alt="Multi-page thread" border="0" />  <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/850468-928s24-wont-start.html">1</a>
+<!-- END TEMPLATE: threadbit_pagelink --> <!-- BEGIN TEMPLATE: threadbit_pagelink -->
+<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/850468-928s24-wont-start-2.html">2</a>
+<!-- END TEMPLATE: threadbit_pagelink -->)</span>
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/48696.html" target="_self">Yellowb1rd</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=850468" onclick="who(850468); return false;">22</a></td>
+		<td class="alt1" align="center">827</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 22, Views: 827">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-05-2015 <span class="time">03:41 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/99080.html" >Sapientoni</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/850468-928s24-wont-start-2.html#post8517518"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_854666">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_854666" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_854666" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/854666-928-parts-sale.html" id="thread_title_854666">928 parts for sale.</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/58682.html" target="_self">red911sc83</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=854666" onclick="who(854666); return false;">0</a></td>
+		<td class="alt1" align="center">225</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 0, Views: 225">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-05-2015 <span class="time">01:49 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/58682.html" >red911sc83</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/854666-928-parts-sale.html#post8517359"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_847704">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_847704" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_847704" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/847704-1980-c-controler.html" id="thread_title_847704">1980 A/C controler</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/59100.html" target="_self">928 Bro</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=847704" onclick="who(847704); return false;">11</a></td>
+		<td class="alt1" align="center">492</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 11, Views: 492">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-04-2015 <span class="time">07:44 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/59100.html" >928 Bro</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/847704-1980-c-controler.html#post8516186"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_473941">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_473941" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_473941" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/473941-clutch-chatter.html" id="thread_title_473941">Clutch Chatter</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/55623.html" target="_self">vandenham</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=473941" onclick="who(473941); return false;">17</a></td>
+		<td class="alt1" align="center">2,704</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 17, Views: 2,704">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-04-2015 <span class="time">04:38 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/42366.html" >Danglerb</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/473941-clutch-chatter.html#post8515950"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_854093">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_854093" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_854093" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/854093-wanted-set-equal-length-headers.html" id="thread_title_854093">wanted set of equal length headers.</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/20168.html" target="_self">javaschlava</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=854093" onclick="who(854093); return false;">5</a></td>
+		<td class="alt1" align="center">282</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 5, Views: 282">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-04-2015 <span class="time">01:13 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/99080.html" >Sapientoni</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/854093-wanted-set-equal-length-headers.html#post8515657"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_853550">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_853550" alt="" border="" />
+	</td>
+	
+		<td class="alt1">&nbsp;</td>
+	
+
+	<td class="alt2" id="td_threadtitle_853550" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853550-selling-928-a.html" id="thread_title_853550">Selling a 928</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/202098.html" target="_self">PorPorMe</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=853550" onclick="who(853550); return false;">6</a></td>
+		<td class="alt1" align="center">499</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 6, Views: 499">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-01-2015 <span class="time">01:49 PM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/63092.html" >Spin-Master</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853550-selling-928-a.html#post8510915"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit --><!-- BEGIN TEMPLATE: threadbit -->
+<tr>
+	<td class="alt2" id="td_threadstatusicon_853864">
+		
+		<img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" id="thread_statusicon_853864" alt="" border="" />
+	</td>
+	
+		<td class="alt1"><img src="http://forums.pelicanparts.com/ultimate/icons/icon5.gif" alt="Question" border="0" /></td>
+	
+
+	<td class="alt2" id="td_threadtitle_853864" title="">
+
+		
+		<div>
+			
+			
+			
+			
+			
+                        
+			<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853864-valeo-alternator.html" id="thread_title_853864">valeo alternator</a>
+			
+		</div>
+	
+		
+			
+		<div class="smallfont">
+			
+
+		</div>
+		
+		
+		
+	</td>
+	<td class="alt1" align=center>
+			
+				<span class="smallfont"><a href="http://forums.pelicanparts.com/members/191878.html" target="_self">Tony928</a></span>
+			
+	</td>
+		
+	
+		<td class="alt2" align="center"><a rel="nofollow" href="http://forums.pelicanparts.com/misc.php?do=whoposted&amp;t=853864" onclick="who(853864); return false;">3</a></td>
+		<td class="alt1" align="center">261</td>
+			
+		
+	
+	
+
+
+	
+	<td class="alt2" title="Replies: 3, Views: 261">
+		<div class="smallfont" style="text-align:right; white-space:nowrap">
+			03-01-2015 <span class="time">02:03 AM</span><br />
+			by <a href="http://forums.pelicanparts.com/members/191878.html" >Tony928</a>  <a href="http://forums.pelicanparts.com/porsche-928-technical-forum/853864-valeo-alternator.html#post8510126"><img class="inlineimg" src="http://forums.pelicanparts.com/images/buttons/lastpost.gif" alt="Go to last post" border="0" /></a>
+		</div>
+	</td>
+	
+
+		
+</tr>
+<!-- END TEMPLATE: threadbit -->
+	</tbody>
+	<!-- end show threads -->
+
+</table>
+
+<!-- controls below thread list -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:3px">
+<tr valign="top">
+	<td class="smallfont"><a href="http://forums.pelicanparts.com/newthread.php?do=newthread&amp;f=15" rel="nofollow"><img src="http://forums.pelicanparts.com/images/buttons/newthread.gif" alt="Post New Thread" border="0" /></a></td>
+	
+		<td align="right"><!-- BEGIN TEMPLATE: pagenav -->
+<div class="pagenav" align="right">
+<table class="tborder" cellpadding="3" cellspacing="1" border="0" style="background-color:#123456; background-image: url('images/gradient2.gif')">
+<tr>
+	<td class="vbmenu_control" style="background-color:#000080; font-weight:bold; font-size: 14px">Page 1 of 2</td>
+	
+	
+	<!-- BEGIN TEMPLATE: pagenav_curpage -->
+	<td class="alt2"><span style="font-weight:bold; font-size: 14px" class="smallfont" title="Showing results 1 to 35 of 57"><strong>1</strong></span></td>
+ 
+<!-- END TEMPLATE: pagenav_curpage --><!-- BEGIN TEMPLATE: pagenav_pagelink -->
+<td class="alt1"><a style="font-weight:bold; font-size: 14px" class="smallfont" href="http://forums.pelicanparts.com/porsche-928-technical-forum/index2.html" title="Show results 36 to 57 of 57">2</a></td>
+<!-- END TEMPLATE: pagenav_pagelink -->
+	<td class="alt1"><a style="font-weight:bold; font-size: 14px" class="smallfont" href="http://forums.pelicanparts.com/porsche-928-technical-forum/index2.html" title="Next Page - Results 36 to 57 of 57">Next &raquo;</a></td>
+	
+	<td style="background-color:#123456; background-image: url('images/gradient2.gif')" class="vbmenu_control" title="forumdisplay.php?s=4eccaf0d0e4ed71a0f6cba66088352a1&amp;f=15&amp;order=desc"><a name="PageNav"></a></td>
+</tr>
+</table>
+</div>
+<!-- END TEMPLATE: pagenav -->
+		
+		</td>
+	
+</tr>
+</table>
+<!-- / controls below thread list -->
+
+</form>
+<br />
+
+<!-- BEGIN TEMPLATE: ad_forumdisplay_afterthreads -->
+
+<!-- END TEMPLATE: ad_forumdisplay_afterthreads -->
+
+<!-- Active Users in this Forum (and sub-forums) and Moderators -->
+
+<form action="http://forums.pelicanparts.com/forumdisplay.php" method="get">
+<input type="hidden" name="s" value="4eccaf0d0e4ed71a0f6cba66088352a1" />
+<input type="hidden" name="f" value="15" />
+<input type="hidden" name="page" value="1" />
+<input type="hidden" name="pp" value="35" />
+
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+<tr>
+	<td class="tcat">Display Options</td>
+	
+	<td class="tcat">Currently Active Users</td>
+	
+	
+	<td class="tcat">Moderators</td>
+	
+</tr>
+<tr>
+	<td class="thead">Showing threads 1 to 35 of 57</td>
+	
+	<td class="thead">16 (4 members &amp; 12 guests)</td>
+	
+	
+	<td class="thead">Moderators : 1</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt1">
+
+		<table cellpadding="0" cellspacing="1" border="0">
+		<tr valign="bottom">
+			<td class="smallfont" style="padding-right:6px">
+				<div><label for="sel_sort">Sorted By</label></div>
+				<select name="sort" id="sel_sort">
+					<option value="title" >Thread Title</option>
+					<option value="lastpost" selected="selected">Last Post Time</option>
+					<option value="dateline" >Thread Start Time</option>
+					<option value="replycount" >Number of Replies</option>
+					<option value="views" >Number of Views</option>
+					<option value="postusername" >Thread Starter</option>
+					<option value="voteavg" >Thread Rating</option>
+				</select>
+			</td>
+			<td class="smallfont" style="padding-right:6px">
+				<div><label for="sel_order">Sort Order</label></div>
+				<select name="order" id="sel_order">
+					<option value="asc" >Ascending</option>
+					<option value="desc" selected="selected">Descending</option>
+				</select>
+			</td>
+			<td class="smallfont">
+				<div><label for="sel_daysprune">From The</label></div>
+				<select name="daysprune" id="sel_daysprune">
+					<option value="1" >Last Day</option>
+					<option value="2" >Last 2 Days</option>
+					<option value="7" >Last Week</option>
+					<option value="10" >Last 10 Days</option>
+					<option value="14" >Last 2 Weeks</option>
+					<option value="30" >Last Month</option>
+					<option value="45" selected="selected">Last 45 Days</option>
+					<option value="60" >Last 2 Months</option>
+					<option value="75" >Last 75 Days</option>
+					<option value="100" >Last 100 Days</option>
+					<option value="365" >Last Year</option>
+					<option value="-1" >Beginning</option>
+				</select>
+			</td>
+		</tr>
+		<tr valign="bottom">
+			<td class="smallfont" colspan="2">
+			
+				&nbsp;
+			
+			</td>
+			<td class="smallfont" align="right" style="padding-top:6px">
+				<input type="submit" class="button" value="Show Threads" />
+			</td>
+		</tr>
+		</table>
+
+	</td>
+	
+	<td class="alt1"><div class="smallfont"><!-- BEGIN TEMPLATE: forumdisplay_loggedinuser -->
+<a href="http://forums.pelicanparts.com/members/45384.html">a320</a>
+<!-- END TEMPLATE: forumdisplay_loggedinuser --><!-- BEGIN TEMPLATE: forumdisplay_loggedinuser -->
+, <a href="http://forums.pelicanparts.com/members/76800.html">gbgastowers</a>
+<!-- END TEMPLATE: forumdisplay_loggedinuser --><!-- BEGIN TEMPLATE: forumdisplay_loggedinuser -->
+, <a href="http://forums.pelicanparts.com/members/200237.html">SwedeInSiam</a>
+<!-- END TEMPLATE: forumdisplay_loggedinuser --><!-- BEGIN TEMPLATE: forumdisplay_loggedinuser -->
+, <a href="http://forums.pelicanparts.com/members/206458.html">Tc johnson</a>
+<!-- END TEMPLATE: forumdisplay_loggedinuser --></div></td>
+	
+	
+	<td class="alt1"><div class="smallfont"><!-- BEGIN TEMPLATE: forumdisplay_moderator -->
+<a href="http://forums.pelicanparts.com/members/50236.html">MPDano</a>
+<!-- END TEMPLATE: forumdisplay_moderator -->&nbsp;</div></td>
+	
+</tr>
+</table>
+
+</form>
+<!-- End Active Users in this Forum (and sub-forums) and Moderators -->
+
+
+<br />
+<!-- popup menu contents -->
+
+
+<!-- forum tools menu -->
+<div class="vbmenu_popup" id="forumtools_menu" style="display:none">
+<form action="http://forums.pelicanparts.com/moderator.php?f=15" method="post" name="forumadminform">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr><td class="thead">Forum Tools<a name="goto_forumtools"></a></td></tr>
+	<tr><td class="vbmenu_option"><a href="http://forums.pelicanparts.com/newthread.php?do=newthread&amp;f=15" rel="nofollow">Post a New Thread</a></td></tr>
+	<tr><td class="vbmenu_option"><a href="http://forums.pelicanparts.com/porsche-928-technical-forum/?do=markread" rel="nofollow" onclick="return mark_forum_read(15);">Mark This Forum Read</a></td></tr>
+	<tr>
+		<td class="vbmenu_option">
+		
+			<a href="http://forums.pelicanparts.com/subscription.php?do=addsubscription&amp;f=15" rel="nofollow">Subscribe to This Forum</a>
+		
+		</td>
+	</tr>
+	<tr><td class="vbmenu_option"><a href="http://forums.pelicanparts.com/1-porsche-technical-forums/" rel="nofollow">View Parent Forum</a></td></tr>
+	
+	</table>
+</form>
+</div>
+<!-- / forum tools menu -->
+
+<!-- inline mod menu -->
+
+<!-- / inline mod menu -->
+
+<!-- / popup menu contents -->
+
+
+
+
+<!-- ############## END THREADS LIST ##############  -->
+
+
+<!-- BEGIN TEMPLATE: forumhome_markread_script -->
+<script type="text/javascript" src="http://forums.pelicanparts.com/clientscript/vbulletin_read_marker.js?v=387"></script>
+<script type="text/javascript">
+<!--
+vbphrase['doubleclick_forum_markread'] = "Double-click this icon to mark this forum and its contents as read";
+init_forum_readmarker_system();
+//-->
+</script>
+<!-- END TEMPLATE: forumhome_markread_script --><div align="center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Forums Footer -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0812980613569064"
+     data-ad-slot="0078232551"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+<!-- forum search menu -->
+<div class="vbmenu_popup" id="forumsearch_menu" style="display:none">
+<form action="http://forums.pelicanparts.com/search.php?do=process" method="post">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Search this Forum<a name="goto_forumsearch"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+			<input type="hidden" name="s" value="4eccaf0d0e4ed71a0f6cba66088352a1" />
+			<input type="hidden" name="securitytoken" value="guest" />
+			<input type="hidden" name="do" value="process" />
+			<input type="hidden" name="forumchoice[]" value="15" />
+			<input type="hidden" name="childforums" value="1" />
+			<input type="hidden" name="exactname" value="1" />
+			<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="Go" accesskey="s" tabindex="1004" /></div>
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+			<label for="rb_fd_sp0"><input type="radio" name="showposts" value="0" id="rb_fd_sp0" tabindex="1002" checked="checked" />Show Threads</label>
+			&nbsp;
+			<label for="rb_fd_sp1"><input type="radio" name="showposts" value="1" id="rb_fd_sp1" tabindex="1003" />Show Posts</label>
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="http://forums.pelicanparts.com/search.php?f=15" rel="nofollow">Advanced Search</a></td>
+	</tr>
+	</table>
+</form>
+</div>
+<!-- / forum search menu -->
+
+
+<!-- forum rules & forum jump -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+<tr valign="middle">
+    <td align=left>
+
+<!-- icon key -->
+
+<table cellpadding="2" cellspacing="0" border="0">
+<tr>
+	<td><img src="http://forums.pelicanparts.com/images/statusicon/thread_new.gif" alt="New posts" border="0" /></td>
+	<td class="smallfont">New posts</td>
+	
+		<td><img src="http://forums.pelicanparts.com/images/statusicon/thread_hot_new.gif" alt="More than 15 replies or 150 views" border="0" /></td>
+		<td class="smallfont">Hot thread with new posts</td>
+	
+</tr>
+<tr>
+	<td><img src="http://forums.pelicanparts.com/images/statusicon/thread.gif" alt="No new posts" border="0" /></td>
+	<td class="smallfont">No new posts</td>
+	
+		<td><img src="http://forums.pelicanparts.com/images/statusicon/thread_hot.gif" alt="More than 15 replies or 150 views" border="0" /></td>
+		<td class="smallfont">Hot thread with no new posts</td>
+	
+</tr>
+<tr>
+	<td><img src="http://forums.pelicanparts.com/images/statusicon/thread_lock.gif" alt="Closed Thread" border="0" /></td>
+	<td class="smallfont">Thread is closed</td>
+	
+		<td colspan="2">&nbsp;</td>
+	
+</tr>
+</table>
+
+<!-- / icon key -->
+
+
+		
+		
+</td>
+    <td width="100%" align=right>
+        <div class="smallfont">&nbsp;</div>
+        &nbsp;
+	</td>
+</tr>
+</table>
+<!-- / forum rules & forum jump -->
+
+
+
+
+<!-- BEGIN TEMPLATE: footer -->
+
+
+<!-- BEGIN TEMPLATE: ad_footer_start -->
+
+<!-- END TEMPLATE: ad_footer_start -->
+
+<br />
+<div class="smallfont" align="center">All times are GMT -8. The time now is <span class="time">05:47 AM</span>.</div>
+<br />
+
+<!-- BEGIN TEMPLATE: spacer_close -->
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- END TEMPLATE: spacer_close -->
+<!-- /content area table -->
+
+<form action="http://forums.pelicanparts.com/" method="get" style="clear:left">
+
+<table cellpadding="6" cellspacing="0" border="0" width="98%" class="page" align="center">
+<tr>
+	
+		<td class="tfoot">
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser">
+					<!-- BEGIN TEMPLATE: option -->
+<option value="3" class="" selected="selected">-- Pelican Parts - vBulletin 2 Style</option>
+
+<!-- END TEMPLATE: option --><!-- BEGIN TEMPLATE: option -->
+<option value="8" class="" >-- iPhone Optimized</option>
+
+<!-- END TEMPLATE: option -->
+				</optgroup>
+			</select>
+		</td>
+	
+	
+	<td class="tfoot" align="right" width="100%">
+		<div class="smallfont">
+			<strong>
+				<a href="http://forums.pelicanparts.com/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> -
+				<a href="http://www.pelicanparts.com/">Pelican Parts</a> -
+				
+				
+				<a href="http://forums.pelicanparts.com/archive/index.php/">Archive</a> -
+				
+				
+
+				<a href="http://forums.pelicanparts.com/porsche-928-technical-forum/#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+<br />
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%">
+  <tr>
+    <td width="88">&nbsp;</td>
+    <td>
+<div align="center">
+	<div class="smallfont" align="center">
+	<!-- Do not remove this copyright notice -->
+	Powered by vBulletin&reg; Version 3.8.7<br />Copyright &copy;2000 - 2015, vBulletin Solutions, Inc.
+	
+<br />Search Engine Optimization by <a rel="nofollow" href="http://www.crawlability.com/vbseo/">vBSEO</a> 3.6.0<!-- Do not remove this copyright notice -->
+	</div>
+
+	<div class="smallfont" align="center">
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+
+	Copyright 2011 Pelican Parts - Posts may be archived for display on the Pelican Parts Website - &nbsp;&nbsp;&nbsp;<a href="http://www.pelicanparts.com/support/DMCA.htm" target="_blank">DMCA Registered Agent Contact Page</a>
+	</div>
+</div>
+	
+	</td>
+    <td width="88">&nbsp;</td>
+  </tr>
+</table>
+
+</form>
+
+<!-- BEGIN TEMPLATE: ad_footer_end -->
+
+<!-- END TEMPLATE: ad_footer_end -->
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+
+
+<!-- D_T_O 1-1-5 -->
+<!-- END TEMPLATE: footer -->
+<br /><div style="z-index:3" class="smallfont" align="center"><div align="center" class="smallfont">DTO Garage Plus <a target="dto" href="http://www.drivethruonline.com">vBulletin Plugins</a> by Drive Thru Online, Inc.</div></div></body>
+</html>
+<!-- END TEMPLATE: FORUMDISPLAY -->

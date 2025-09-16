@@ -1,0 +1,265 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	background-image: url(images/buddhanet2010/buddhanet_bg-grad.jpg);
+	background-repeat: repeat-x;
+	background-color: #a49987;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#footer {
+	background: #fff;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#container-inner, #footer-inner {
+	width: 1074px;
+	margin: 0 auto;
+}
+#banner { margin: 6px 0 0; }
+#xlboxes { margin: 10px 0 10px 0; }
+
+#header input.sponsor{
+	background: url(images/buddhanet2010/google_logo.gif) #ffffff no-repeat right;
+	font: 11px arial,helvetica,sans-serif;
+	border: solid 1px #cecbc6;
+	padding: 1px 2px 2px 2px;
+	height: 16px;
+}
+	
+#header input.sponsorOn{
+	background: url(images/buddhanet2010/google_logo-on.gif) #ffffff no-repeat right;
+	font: 11px arial,helvetica,sans-serif;
+	border: solid 1px #cecbc6;
+	padding: 1px 2px 2px 2px;
+	height: 16px;
+}
+
+#footer-inner { width: 1074px; padding: 0; margin: 0 auto; } 
+#footer a.flinks, #footer a.link, #footer a.visited {color: #98a5b3; display: block; padding: 14px 10px 0 4px; border-left: solid 1px #a6b4c3; text-decoration: none; text-transform: lowercase; font: normal 11px arial; }
+#footer a.flinks:hover, #footer a.flinks:active {color: #827868; display: block; padding: 14px 10px 0 4px; border-left: solid 1px #a49987; text-decoration: none; text-transform: lowercase; font: normal 11px arial; }
+#footer td.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #98a5b3;
+}
+
+#meditation { background:url(images/buddhanet2010/box_bg-meditation.gif) no-repeat; width: 210px; height: 133px; }
+#publishing { background:url(images/buddhanet2010/box_bg-publishing.gif) no-repeat; width: 210px; height: 133px; }
+
+#publishingWide { background:url(images/2012/box_bg-publishingwide.gif) no-repeat; width: 257px; height: 120px; }
+#donations { background:url(images/buddhanet2010/box_bg-donations.gif) no-repeat; width: 425px; height: 85px; }
+
+#mmedia { background:url(images/buddhanet2010/box_bg-publishing.gif) no-repeat; width: 210px; height: 133px; }
+
+
+#latestnews { background:url(images/2012/box_bg-latestnews.gif) no-repeat; width: 529px; height: 177px; }
+#wlinks, #estore { background:url(images/buddhanet2010/box_bg-estore.gif) repeat-x #2d2822; border: solid 1px #b3a895; width: 1072px; }
+#wlinks-inner, #estore-inner { padding: 16px; font: normal 10px Arial,Helvetica,sans-serif; color: #fff; }
+#wlinks-inner { font: normal 12px Arial, Helvetica, sans-serif; }
+#sublev { padding: 0 0 6px 0; }
+#sublev a {  color: #b3a895; }
+#sublev a:hover { color: #feac00; }
+
+
+div.bbox-inner { padding: 8px 6px 6px 10px; font: normal 10px Arial,Helvetica,sans-serif; color: #fff; }
+div.bbox-inner a.tlink { display: block; padding-top: 6px; font: normal 11px Arial,Helvetica,sans-serif; color: #fff; text-decoration: none; font-weight: bold; }
+div.bbox-inner a.mlink { display: block; padding-top: 6px; }
+div.bbox-inner a {  color: #b3a895; }
+div.bbox-inner a:hover { color: #feac00; }
+
+/*CSS for the scroller*/
+
+#pscroller1{
+width: 505px;
+/* old height = 130px */
+height: 100px;
+margin: 6px 0;
+border: dotted 1px #fff;
+border-right: none;
+border-left: none;
+
+}
+
+.someclass{ //class to apply to your scroller(s) if desired
+}
+
+select,input { font: normal 10px Arial, Helvetica, sans-serif; } 
+
+.linksMenu ul {
+	margin: 0 10px 10px 0;
+	padding: 0 0 6px 0;
+	border-right: dotted 1px #c0b6a5;
+	font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+.linksMenu li {
+	margin: 0 0 6px 0;
+	list-style: none;
+	padding: 0 10px 0 16px;
+	background: url(images/wlinks/arw_white.gif) no-repeat 0 2px;
+}
+
+.linksMenu li:hover {
+	margin: 0 0 6px 0;
+	list-style: none;
+	padding: 0 10px 0 16px;
+	background: url(images/wlinks/arw_yellow.gif) no-repeat 0 2px;
+}
+
+#sublev .linksMenu li a {
+	text-decoration: none;
+	color: #FFF;	
+}
+
+#sublev .linksMenu li:hover a,
+#sublev .linksMenu li a:hover {
+	text-decoration: none;
+	color: #feac00;
+}
+
+#sublev .linksMenu li.selected a {
+	text-decoration: none;
+	color:  #c0b6a5;	
+}
+
+#sublev .linksMenu li.selected,
+#sublev .linksMenu li.selected:hover {
+	margin: 0 0 6px 0;
+	list-style: none;
+	padding: 0 0 0 16px;
+	background: url(images/wlinks/arw_brown.gif) no-repeat 4px 2px;
+	color:  #c0b6a5;
+}
+#sublev .linksMenu li.spaced,
+#sublev .linksMenu li.spaced:hover {
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	border-bottom: dotted 1px #c0b6a5;
+}
+
+.linksMenu {
+	padding: 8px 0 0;
+}
+
+.linksBody {
+	padding: 0 10px 10px 10px;
+}
+
+.linksBody ul {
+	margin: 16px 0 0;
+	padding: 0;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	border-top: solid 1px #898174;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.linksBody li {
+	margin: 0;
+	padding: 16px 0 16px 0;
+	border-bottom: solid 1px #898174;
+	list-style: none;
+}
+
+.top10 td {
+	margin: 0;
+	padding: 10px 0 10px 0;
+	border-bottom: solid 1px #898174;
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.top10 td .siteName {
+	font: normal 16px Arial, Helvetica, sans-serif;
+	color: #c0b6a5;
+}
+
+.top10 td img {
+	margin: 0 0 0 20px;
+	border: solid 1px #c0b6a5;
+}
+
+table.top10 {
+	border-top: solid 1px #898174;
+}
+
+.linksBody li li {
+	margin: 0 0 8px 16px;
+	padding: 0 0 0 6px;
+	list-style: square;
+	border-bottom: none;
+}
+
+.linksBody li ul {
+	margin: 8px 0 0 0;
+	padding: 0 0 0 0;
+	border-top: none;
+}
+
+.linksBody li.title {
+	background: #2c2621;
+	padding: 8px;
+	border-left: solid 1px #898174;
+	border-right: solid 1px #898174;
+	color: #fff;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.linksBody li.subtitle {
+	background: #362f29;
+	padding: 8px;
+	border-left: solid 1px #898174;
+	border-right: solid 1px #898174;
+	color: #c0b6a5;
+	font: bold 11px Arial, Helvetica, sans-serif;
+}
+
+
+.anchors li {
+	margin: 0 0 6px 0;
+	list-style: none;
+	padding: 0 10px 0 16px;
+	background: url(images/wlinks/arw_white.gif) no-repeat 0 2px;
+	border: none;
+}
+
+.anchors li:hover {
+	margin: 0 0 6px 0;
+	list-style: none;
+	padding: 0 10px 0 16px;
+	background: url(images/wlinks/arw_yellow.gif) no-repeat 0 2px;
+	border: none;
+}
+
+#sublev .anchors {
+	border: none;
+	margin-top: 0;
+}
+	
+#sublev .anchors li a {
+	text-decoration: none;
+	color: #FFF;	
+}
+
+#sublev .anchors li:hover a,
+#sublev .anchors li a:hover {
+	text-decoration: none;
+	color: #feac00;
+}
+
+#sublev .linksBody .ebooks {
+	padding: 0 0 15px 10px;
+	border-bottom:  solid 1px #898174;
+}
+#sublev .linksBody .ebookstitle {
+	padding: 2px 0 0 0;
+}
+
+#sublev .small {
+	font-size: 10px;
+}

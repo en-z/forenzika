@@ -1,0 +1,30 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/dd_valid.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* common styling */
+.menu {font-family: arial, sans-serif; width:1074px; height:21px; position:relative; font-size:11px; z-index:100;}
+.menu ul li a, .menu ul li a:visited {display:block; text-decoration:none; height:21px; padding-left: 4px; text-align: left; color:#fcf8f1; border: solid 1px #b3a895; border-right: none; background: url(images/buddhanet2010/buddhanet_ddmenu-grad.jpg) repeat-x; line-height:20px; font-size:11px; text-transform: lowercase; overflow:hidden;}
+.menu ul {padding:0; margin:0; list-style: none;}
+.menu ul li {float:left; position:relative;width:134px;}
+.menu ul li.end {float:left; position:relative;width:136px;}
+.menu ul li.end a, .menu ul li.end a:visited { border: solid 1px #b3a895; border-right: solid 1px #b3a895; }
+.menu ul li ul {display: none;}
+
+/* specific to non IE browsers */
+.menu ul li:hover a {color:#fff; background:#2d2820 /* #36f */;}
+.menu ul li:hover ul {display:block; position:absolute; top:22px; left:0; width:134px;  background:#2d2820; border-right: solid 1px #b3a895; border-bottom: solid 1px #b3a895}
+.menu ul li.end:hover ul {display:block; position:absolute; top:22px; left:0; width:134px;  background:#2d2820; border-right: solid 1px #b3a895; border-bottom: solid 1px #b3a895}
+.menu ul li:hover ul li a.hide {background:#6a3; color:#fff;}
+.menu ul li:hover ul li:hover a.hide {background:#6fc; color:#000;}
+.menu ul li:hover ul li {width: 135px;}
+.menu ul li:hover ul li ul {display: none;}
+.menu ul li:hover ul li a { margin-right: 1px;display:block; background:#2d2820; color:#fcf8f1; border-bottom: none;}
+.menu ul li:hover ul li a:hover {background:#ede1cc; color:#000;}
+.menu ul li:hover ul li:hover ul {display:block; position:absolute; left:105px; top:0;}
+.menu ul li:hover ul li:hover ul.left {left:-105px;}
